@@ -1,7 +1,11 @@
-# Gamezone-Sales-Dashboard
-Analyzing Sales Data from Gamezone
+# Gamezone Sales Dashboard
 
 ### Table of Contents
+- [Project Overview](Project_Overivew)
+- [Executive Summary](Executive_Summary)
+- [Objectives](Objectives)
+- [Tools](Tools)
+- [Data Cleaning](Data_Cleaning)
 
 ### Project Overview
 Gamezone is a digital retailer for new and refurbished video game products. This project analyzes customer purchases to uncover revenue patterns, order behavior, and product category performance. The result is a fully interactive dashboard that surfaces insights across time, geography, and value metrics.
@@ -17,8 +21,6 @@ Gamezone is a digital retailer for new and refurbished video game products. This
 - Microsoft Excel: data cleaning and inital exploratory data analysis.
 - PostgreSQL: stratification by region, product, marketing channel, account creation metod, and over time. 
 - Power BI: create interactive sales dashboard visualizing KPIs
-
-### Executive Summary
   
 ### Data Cleaning
 This project involved a relatively clean e-commerce dataset consisting of 21,854 records. A detailed review of the Orders and Region tables surfaced 12 data quality issues, most of which were low in magnitude. Only one inconsistency impacted more than 1% of records (specifically, 9.17%). These anomalies were addressed methodically to uphold data integrity.
@@ -52,4 +54,6 @@ Following the cleaning process, five new columns were computed and added to the 
     - 2 rows were missing their region, I was able to impute the correct region using the country code
     - 5 rows had inconsistent spellings, listing "North America" instead of "NA", these were standardized to "NA"
     - 2 rows had X.x listed as their region, I was able to impute the correct region using the country code
+
+### Data Stratification
 
