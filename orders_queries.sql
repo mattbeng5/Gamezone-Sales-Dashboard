@@ -25,11 +25,13 @@ LIMIT 5;
 -- 02/2019(80,389.10), 01/2019(100,491.28), 06/2019(108,450.52), 01/2020(109,935.63), 03/2019(115,193.98) 
 
 -- Average Monthly Sales
-SELECT purchase_month, ROUND(AVG(usd_price)::NUMERIC, 2) as avg_monthly_revenue
-FROM orders
-WHERE purchase_month IS NOT NULL
+SELECT purchase_month, ROUND(AVG(monthly_revenue)::NUMERIC, 2) AS avg_monthly_revenue
+FROM(SELECT purchase_year, purchase_month, SUM(usd_price) AS monthly_revenue
+		FROM orders
+		WHERE purchase_year IS NOT NULL
+		GROUP BY purchase_year, purchase_month)
 GROUP BY purchase_month
-ORDER BY purchase_month;
+ORDER BY purchase_month DESC ; 
 
 -- Product Revenue Ranked 
 SELECT product_name, ROUND(SUM(usd_price)::NUMERIC, 2) AS total_revenue
