@@ -1,11 +1,12 @@
 # Gamezone Sales Dashboard
 
 ### Table of Contents
-- [Project Overview](Project_Overivew)
-- [Executive Summary](Executive_Summary)
-- [Objectives](Objectives)
-- [Tools](Tools)
-- [Data Cleaning](Data_Cleaning)
+- [Project Overview](#project-overview)
+- [Executive Summary](#executive-summary)
+- [Objectives](#objectives)
+- [Tools](#tools)
+- [Data Cleaning](#data-cleaning)
+- [PostgreSQL Analysis](#postgresql-analysis)
 
 ### Project Overview
 Gamezone is a digital retailer for new and refurbished video game products. This project analyzes customer purchases to uncover revenue patterns, order behavior, and product category performance. The result is a fully interactive dashboard that surfaces insights across time, geography, and value metrics.
@@ -55,5 +56,23 @@ Following the cleaning process, five new columns were computed and added to the 
     - 5 rows had inconsistent spellings, listing "North America" instead of "NA", these were standardized to "NA"
     - 2 rows had X.x listed as their region, I was able to impute the correct region using the country code
 
-### Data Stratification
+### PostgreSQL Analysis
+After cleaning and structuring the orders dataset, I imported the data into PostgreSQL to analyze more thoroughly. My goal for this analysis was to uncover revenue patterns, product performance, seasonal trends and customer acquisition behavior. All query results were exported to [query_results](query_results.txt) queries are documented in [orders_queries](orders_queries.sql) for full transparency and reproducibility.
 
+#### Key Analysis Highlights
+- KPIs
+  - Total Orders: 21,864
+  - Total Revenue: $6,151,266.49
+  - Average Order Value: $281.41
+- Monthly Sales Trends
+  - Averaged monthly sales revenue to explore seasonality
+  - Highest: December ($365,102.23)
+  - Lowest: January ($166,575.09)
+- Product Revenue Rankings
+  - Top Product: 27in 4K gaming monitor ($1,968,565.34)
+  - Bottom Product: Razer Pro Gaming Headset ($884.23)
+- Revenue by Marketing Channel
+  - Best method: direct marketing ($5,209,858.66)
+  - Least effective method: social media($69,526.37)
+    
+       
