@@ -1,10 +1,15 @@
-# Gamezone-Sales-Data
+# Gamezone-Sales-Dashboard
 Analyzing Sales Data from Gamezone
 
 ### Project Overview
-Gamezone is an online retailer selling new and refurbished video game products, the purpose of this project is to create an interactive sales dashboard which will track revenue, order counts, average order value over time and by product category. 
+Gamezone is a digital retailer for new and refurbished video game products. This project analyzes customer purchases to uncover revenue patterns, order behavior, and product category performance. The result is a fully interactive dashboard that surfaces insights across time, geography, and value metrics.
+
+###Objectives
+- Visualize total revenue, order count, and average order value (AOV) over time
+- Analyze geographic sales distribution using map-based visuals
+- Deliver actionable insights to marketing and finance teams through interactive dashboards
 
 ### Tools
-1. Microsoft Excel was used for data cleaning and inital exploratory data analysis. 
-2. SQL was used to write queries to stratify data by region, channel, and category.
-3. Power BI was used to create visualizations: time-series line charts, bar charts, and slicers. 
+- Microsoft Excel: data cleaning and inital exploratory data analysis.
+- SQL (PostgreSQL): stratification by region, product, marketing channel, account creation metod, and over time. 
+- Power BI was used to create interactive sales dashboard visualizing KPIs
