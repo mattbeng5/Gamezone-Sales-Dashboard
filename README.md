@@ -8,6 +8,7 @@
 - [Data Cleaning](#data-cleaning)
 - [PostgreSQL Analysis](#postgresql-analysis)
 - [Power BI Dashboard](#power-bi-dashboard)
+- [Next Steps](#next-steps)
 
 ### Project Overview
 Gamezone is a digital retailer for new and refurbished video game products. This project analyzes customer purchases to uncover revenue patterns, order behavior, and product category performance. The result is a fully interactive dashboard that surfaces insights across time, geography, and value metrics.
@@ -96,7 +97,7 @@ Power BI was utilized to create [this dashboard](https://github.com/mattbeng5/Ga
 
 
 
-#### Next Steps
+### Next Steps
 
 **Marketing Team**
   - Expand bundles in Q4 to take advantage of high sales volume
