@@ -85,5 +85,27 @@ After cleaning and structuring the orders dataset, I imported the data into Post
  
 ### Power BI Dashboard
 
-    
-       
+Power BI was utilized to create [this dashboard]() to visualize sales performance by product, region, and over time. 
+
+
+#### Conclusion and Next Steps
+
+#### Next Steps
+**Marketing Team**
+  - Expand bundles in Q4 to take advantage of high sales volume
+    - combine high and low revenue products(e.g. 27in 4k gaming monitor and Dell Gaming Mouse)
+  - Launch targeted promotions in each region's top performing marketing channel
+
+**Sales Strategy**
+  - Reinvest in high-performing channels
+    - Direct in NA, Social Media in EMEA 
+  - Align sales outreach with marketing promotions
+
+**Operations Strategy**
+  - Prioritize logistics in APAC and LATAM regions to capture more market share
+  - Increase data quality
+    - largest data issue was shipment timestamp listed as before purchase time stamp
+   
+**Analytics Strategy**
+  - Update dashboard with quarterly sales reports
+  - Begin predictive modeling for 2026       
