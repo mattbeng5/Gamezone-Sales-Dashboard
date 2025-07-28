@@ -16,7 +16,7 @@ Gamezone is a digital retailer for new and refurbished video game products. This
 #### Gamezone Sales Dashboard 3-Year Performance Overview
 This dashboard analyzes over 21,000 customer transactions from GameZone, an e-commerce retailer specializing in new and refurbished video game products. Over a three-year period, total revenue exceeded $6.15M, driven by flagship products such as the 27in 4K gaming monitor, which alone generated nearly $2M.
 
-Interactive visuals uncover patterns across product lines, geographic regions, and purchase timing. Direct marketing channels proved highly effective, and consistent seasonality trends—with December as the top-performing month—highlighted opportunities for targeted campaigns. The LATAM and North America (NA) regions contributed the bulk of sales volume.
+Interactive visuals uncover patterns across product lines, geographic regions, and purchase timing. Direct marketing channels proved highly effective, and consistent seasonality trends—with December as the top-performing month—highlighted opportunities for targeted campaigns. The EMEA and North America (NA) regions contributed the bulk of sales volume.
 
 With additional layers of analysis, including product performance rankings, year-over-year comparisons, and regional heatmaps, this dashboard equips stakeholders with actionable insights. It serves as a strategic tool for both marketing and finance teams to uncover growth opportunities and optimize campaign strategies.
 
