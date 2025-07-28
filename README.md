@@ -18,7 +18,7 @@ This dashboard analyzes over 21,000 customer transactions from GameZone, an e-co
 
 Interactive visuals uncover patterns across product lines, geographic regions, and purchase timing. Direct marketing channels proved highly effective, and consistent seasonality trends—with December as the top-performing month—highlighted opportunities for targeted campaigns. The EMEA and North America (NA) regions contributed the bulk of sales volume.
 
-With additional layers of analysis, including product performance rankings, year-over-year comparisons, and regional heatmaps, this dashboard equips stakeholders with actionable insights. It serves as a strategic tool for both marketing and finance teams to uncover growth opportunities and optimize campaign strategies.
+With additional layers of analysis, including product performance rankings and regional heatmaps, this dashboard equips stakeholders with actionable insights. It serves as a strategic tool for both marketing and finance teams to uncover growth opportunities and optimize campaign strategies.
 
 
 ### Objectives
@@ -29,7 +29,7 @@ With additional layers of analysis, including product performance rankings, year
 ### Tools
 - Microsoft Excel: data cleaning and inital exploratory data analysis.
 - PostgreSQL: stratification by region, product, marketing channel, account creation metod, and over time. 
-- Power BI: create interactive sales dashboard visualizing KPIs
+- Power BI: created interactive sales dashboard visualizing KPIs.
   
 ### Data Cleaning
 This project involved a relatively clean e-commerce dataset consisting of 21,854 records. A detailed review of the Orders and Region tables surfaced 12 data quality issues, most of which were low in magnitude. Only one inconsistency impacted more than 1% of records (specifically, 9.17%). These anomalies were addressed methodically to uphold data integrity.
@@ -65,7 +65,7 @@ Following the cleaning process, five new columns were computed and added to the 
     - 2 rows had X.x listed as their region, I was able to impute the correct region using the country code
 
 ### PostgreSQL Analysis
-After cleaning and structuring the orders dataset, I imported the data into PostgreSQL to analyze more thoroughly. My goal for this analysis was to uncover revenue patterns, product performance, seasonal trends and customer acquisition behavior. All query results were exported to [query_results](query_results.txt) queries are documented in [orders_queries](orders_queries.sql) for full transparency and reproducibility.
+After cleaning and structuring the orders dataset, I imported the data into PostgreSQL to analyze more thoroughly. My goal for this analysis was to uncover revenue patterns, product performance, seasonal trends and customer acquisition behavior. All query results were exported to [query_results](query_results.txt); queries are documented in [orders_queries](orders_queries.sql) for full transparency and reproducibility.
 
 ### Key Analysis Highlights
 - KPIs
@@ -85,7 +85,7 @@ After cleaning and structuring the orders dataset, I imported the data into Post
  
 ### Power BI Dashboard
 
-Power BI was utilized to create [orders_dashboard](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/orders_dashboard.pbix) to visualize sales performance by product, region, and over time. Please feel free to interact with this dashboard in Power BI Desktop, screenshots are below. 
+Power BI was utilized to create [this dashboard](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/orders_dashboard.pbix) visualizing sales performance by product, region, and over time. Please feel free to interact with this dashboard in Power BI Desktop, screenshots are below. 
 
 ![Overview Screenshot](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/Overview.png)
 ![Product Sales Screenshot](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/Product%20Sales.png)
