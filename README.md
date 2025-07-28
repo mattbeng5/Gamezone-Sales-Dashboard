@@ -85,7 +85,7 @@ After cleaning and structuring the orders dataset, I imported the data into Post
  
 ### Power BI Dashboard
 
-Power BI was utilized to create [orders_dashboard](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/orders_dashboard.pbix) to visualize sales performance by product, region, and over time. Please feel free to explore this dashboard in Power BI Desktop, screenshots are below. 
+Power BI was utilized to create [orders_dashboard](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/orders_dashboard.pbix) to visualize sales performance by product, region, and over time. Please feel free to interact with this dashboard in Power BI Desktop, screenshots are below. 
 
 ![Overview Screenshot](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/Overview.png)
 ![Product Sales Screenshot](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/Product%20Sales.png)
