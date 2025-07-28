@@ -7,6 +7,7 @@
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
 - [PostgreSQL Analysis](#postgresql-analysis)
+- [Power BI Dashboard](#power-bi-dashboard)
 
 ### Project Overview
 Gamezone is a digital retailer for new and refurbished video game products. This project analyzes customer purchases to uncover revenue patterns, order behavior, and product category performance. The result is a fully interactive dashboard that surfaces insights across time, geography, and value metrics.
@@ -66,7 +67,7 @@ Following the cleaning process, five new columns were computed and added to the 
 ### PostgreSQL Analysis
 After cleaning and structuring the orders dataset, I imported the data into PostgreSQL to analyze more thoroughly. My goal for this analysis was to uncover revenue patterns, product performance, seasonal trends and customer acquisition behavior. All query results were exported to [query_results](query_results.txt) queries are documented in [orders_queries](orders_queries.sql) for full transparency and reproducibility.
 
-#### Key Analysis Highlights
+### Key Analysis Highlights
 - KPIs
   - Total Orders: 21,864
   - Total Revenue: $6,151,266.49
@@ -81,5 +82,8 @@ After cleaning and structuring the orders dataset, I imported the data into Post
 - Revenue by Marketing Channel
   - Best method: direct marketing ($5,209,858.66)
   - Least effective method: social media($69,526.37)
+ 
+### Power BI Dashboard
+
     
        
