@@ -90,7 +90,6 @@ Power BI was utilized to create [this dashboard]() to visualize sales performanc
 
 #### Conclusion and Next Steps
 
-#### Next Steps
 **Marketing Team**
   - Expand bundles in Q4 to take advantage of high sales volume
     - combine high and low revenue products(e.g. 27in 4k gaming monitor and Dell Gaming Mouse)
