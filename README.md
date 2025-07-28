@@ -85,10 +85,10 @@ After cleaning and structuring the orders dataset, I imported the data into Post
  
 ### Power BI Dashboard
 
-Power BI was utilized to create [this dashboard]() to visualize sales performance by product, region, and over time. 
+Power BI was utilized to create [this dashboard](https://github.com/mattbeng5/Gamezone-Sales-Dashboard/blob/main/orders_dashboard.pbix) to visualize sales performance by product, region, and over time. 
 
 
-#### Conclusion and Next Steps
+#### Next Steps
 
 **Marketing Team**
   - Expand bundles in Q4 to take advantage of high sales volume
